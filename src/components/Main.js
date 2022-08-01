@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 // import { Modal, Button,} from 'react-bootstrap';
-import CityModal from './CityModal.js';
+import CityMap from './CityMap.js';
 
 
 
@@ -35,7 +35,7 @@ render() {
     <>
       <input onChange={(e) => this.setState({ searchQuery: e.target.value })} placeholder="search for a city"></input>
       <button onClick={this.getLocation}>Explore!</button>
-      <CityModal
+      <CityMap
         location={this.state.location}
         handleClose={this.handleClose}
         showModal={this.state.show}

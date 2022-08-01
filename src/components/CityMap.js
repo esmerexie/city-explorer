@@ -2,7 +2,7 @@ import React from 'react';
 import { Modal, Button, Container, Image } from 'react-bootstrap';
 
 
-class CityModal extends React.Component {
+class CityMap extends React.Component {
   
 
  
@@ -35,4 +35,4 @@ class CityModal extends React.Component {
     );
   }
 }
-export default CityModal
+export default CityMap
